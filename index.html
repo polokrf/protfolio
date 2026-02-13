@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/polokProfile.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Portfolio</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#6366f1",
+                        "primary-dark": "#4f46e5",
+                        "secondary": "#a855f7",
+                        "background-light": "#ffffff",
+                        "background-dark": "#0f172a",
+                        "surface-light": "#f8fafc",
+                        "surface-dark": "#1e293b",
+                        "card-dark": "#1e293b",
+                        "text-main": "#0f172a",
+                        "text-muted": "#64748b",
+                        "text-dark-main": "#f8fafc",
+                        "text-dark-muted": "#94a3b8",
+                    },
+                    fontFamily: {
+                        "sans": ["Plus Jakarta Sans", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"],
+                    },
+                    boxShadow: {
+                        'glow': '0 0 40px -10px rgba(99, 102, 241, 0.4)',
+                    }
+                },
+            },
+        }
+    </script>
+  </head>
+  <body class="bg-background-light dark:bg-background-dark font-sans text-text-main dark:text-text-dark-main antialiased selection:bg-primary/20 selection:text-primary transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
