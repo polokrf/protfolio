@@ -8,30 +8,58 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Skill Swap",
-      description: "This is a frontend-based project built with Firebase Authentication. Firebase Auth is well implemented to ensure secure and smooth user authentication. The project is primarily a skill swap platform that allows users to exchange skills",
-      image: "https://i.ibb.co.com/qMB9NMbp/Skill-Swap.png",
-      technologies: ["React", "Firebase",'Tailwind'],
-      link:"https://skillswap-4m5.pages.dev",
-      git:"https://github.com/polokrf/skillswap.git"
+      title: 'School Management Platform',
+      description: `This is a team project where we built a complete school management platform using the MERN stack.Users can join the system and access different features based on their roles such as Admin, Teacher, Student, and General User.The platform also includes modern tools like secure payment integration and efficient data fetching to improve performance and user experience`,
+      image: 'https://i.ibb.co.com/BHKPcM4s/school-mangement.png',
+      technologies: [
+        'React.js',
+        'Firebase',
+        'Tailwind',
+        'MongoDB',
+        ' Express.js',
+        ' Node.js',
+        'TanStack Query',
+        'React Hook Form',
+        'Stripe',
+      ],
+      link: 'https://nexus-school2.netlify.app/',
+      git: 'https://github.com/emon35410/Nexus-School.git',
     },
     {
-      title: "Social Development Events",
-      description: "This is a full-stack project built with both frontend and backend technologies. The project mainly focuses on implementing a dynamic dashboard system. It is a social development events platform designed to manage and showcase various events effectively",
-      image: "https://i.ibb.co.com/pBwmYDbt/socila.png",
-      technologies: ["React", "Firebase","Jwt", "Tailwind",'Node.js','Express','MongoDB'],
-       link:"https://social-development-events.pages.dev",
+      title: 'Blood Donation',
+      description:
+        'This full-stack project focuses on role-based access control and payment system integration. It is a blood donation platform built to ensure secure access, smooth transactions, and efficient donation management',
+      image: 'https://i.ibb.co.com/7JTyycVm/blood.png',
+      technologies: [
+        'React',
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'Firebase',
+        'JWT',
+        'Stripe',
+      ],
+      link: 'https://blood-donation.pages.dev',
+      git: 'https://github.com/polokrf/Blood-Donation-Application.git',
+    },
+    {
+      title: 'Social Development Events',
+      description:
+        'This is a full-stack project built with both frontend and backend technologies. The project mainly focuses on implementing a dynamic dashboard system. It is a social development events platform designed to manage and showcase various events effectively',
+      image: 'https://i.ibb.co.com/pBwmYDbt/socila.png',
+      technologies: [
+        'React',
+        'Firebase',
+        'Jwt',
+        'Tailwind',
+        'Node.js',
+        'Express',
+        'MongoDB',
+      ],
+      link: 'https://social-development-events.pages.dev',
 
-       git:"https://github.com/polokrf/social-development-events-platform.git"
+      git: 'https://github.com/polokrf/social-development-events-platform.git',
     },
-    {
-      title: "Blood Donation",
-      description: "This full-stack project focuses on role-based access control and payment system integration. It is a blood donation platform built to ensure secure access, smooth transactions, and efficient donation management",
-      image: "https://i.ibb.co.com/7JTyycVm/blood.png",
-      technologies: ["React","Node.js", "Express", "MongoDB","Firebase" ,"JWT","Stripe"],
-      link:"https://blood-donation.pages.dev",
-      git:"https://github.com/polokrf/Blood-Donation-Application.git"
-    }
   ];
 
   const cardVariants = {
