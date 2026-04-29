@@ -29,7 +29,7 @@ const Projects = () => {
       title: 'Blood Donation',
       description:
         'This full-stack project focuses on role-based access control and payment system integration. It is a blood donation platform built to ensure secure access, smooth transactions, and efficient donation management',
-      image: 'https://i.ibb.co.com/7JTyycVm/blood.png',
+      image: 'https://i.ibb.co.com/n8VG0NqL/blood-donation.png',
       technologies: [
         'React',
         'Node.js',
@@ -43,22 +43,26 @@ const Projects = () => {
       git: 'https://github.com/polokrf/Blood-Donation-Application.git',
     },
     {
-      title: 'Social Development Events',
-      description:
-        'This is a full-stack project built with both frontend and backend technologies. The project mainly focuses on implementing a dynamic dashboard system. It is a social development events platform designed to manage and showcase various events effectively',
-      image: 'https://i.ibb.co.com/pBwmYDbt/socila.png',
+      title: '💬 DoChat ',
+      description: `DoChat is a full-stack real-time social chat platform where users can securely sign up, log in, search users, send/cancel friend requests, manage friendships, and chat instantly.
+        Built with a strong focus on real-world problem solving, security, and smooth user experience.`,
+      image: 'https://i.ibb.co.com/vCXYQzS9/chat-App-34.png',
       technologies: [
-        'React',
-        'Firebase',
-        'Jwt',
-        'Tailwind',
+        'Next.js',
+        'Tailwind CSS',
+        'DaisyUI',
+        ' Axios',
+        'TanStack Query',
+        'NextAuth',
         'Node.js',
-        'Express',
+        'Express.js',
         'MongoDB',
+        'JWT',
+        'Socket.IO',
       ],
-      link: 'https://social-development-events.pages.dev',
+      link: 'https://do-chat-client.vercel.app/',
 
-      git: 'https://github.com/polokrf/social-development-events-platform.git',
+      git: 'https://github.com/polokrf/Do-Chat-client.git',
     },
   ];
 

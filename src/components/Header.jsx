@@ -134,7 +134,7 @@ const Header = () => {
                   className="bg-gradient-to-r from-primary to-secondary text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full text-xs xl:text-sm font-semibold shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all duration-300 relative overflow-hidden group"
                 >
                   <a
-                    href="https://drive.google.com/file/d/1C-4qxmkome-B3_owGav-0l2lSv8DAMps/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1rHpr2yRQK5PKjJZfQgIlG3dt6uK5C2Zq/view?usp=drive_link"
                     target="_blank"
                     className="relative z-10"
                   >
