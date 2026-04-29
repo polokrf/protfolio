@@ -15,7 +15,10 @@ const Skills = () => {
         { name: "HTML5 & CSS3", color: "blue-500" },
         { name: "JavaScript (ES6+)", color: "yellow-500" },
         { name: "React.js", color: "cyan-500" },
-        { name: "Tailwind CSS", color: "teal-500" }
+        { name: "Next.js", color: "green-500" },
+        { name: "NextAuth", color: "yellow-700"},
+        { name: "Firebase Auth", color: "green-200"},
+        { name: "Tailwind CSS", color: "teal-500"}
       ]
     },
     {
@@ -26,7 +29,8 @@ const Skills = () => {
         { name: "Node.js", color: "green-500" },
         { name: "Express.js", color: "slate-500" },
         { name: "REST APIs", color: "purple-500" },
-        { name: "JWT Auth", color: "orange-500" }
+        { name: "JWT Auth", color: "orange-500" },
+        { name: "Socket.Io", color: "blue-500" }
       ]
     },
     {
