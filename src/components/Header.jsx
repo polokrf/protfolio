@@ -5,7 +5,7 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
-  
+
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -26,6 +26,7 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Services', href: '#services' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -33,7 +34,7 @@ const Header = () => {
   const handleNavClick = (href, name) => {
     setActiveSection(name.toLowerCase());
     setIsMobileMenuOpen(false);
-    
+
     // Smooth scroll to section
     const element = document.querySelector(href);
     if (element) {
@@ -47,11 +48,10 @@ const Header = () => {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          isScrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
             ? 'bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border-b border-slate-200/50 dark:border-slate-700/50 shadow-lg shadow-slate-900/5'
             : 'bg-transparent'
-        }`}
+          }`}
       >
         {/* Scroll Progress Bar */}
         <motion.div
@@ -100,11 +100,10 @@ const Header = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.1 * index }}
                     whileHover={{ y: -2 }}
-                    className={`text-xs xl:text-sm font-medium transition-all duration-300 relative group ${
-                      activeSection === item.name.toLowerCase()
+                    className={`text-xs xl:text-sm font-medium transition-all duration-300 relative group ${activeSection === item.name.toLowerCase()
                         ? 'text-primary'
                         : 'text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary'
-                    }`}
+                      }`}
                     href={item.href}
                     onClick={e => {
                       e.preventDefault();
@@ -134,7 +133,7 @@ const Header = () => {
                   className="bg-gradient-to-r from-primary to-secondary text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full text-xs xl:text-sm font-semibold shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all duration-300 relative overflow-hidden group"
                 >
                   <a
-                    href="https://drive.google.com/file/d/1rHpr2yRQK5PKjJZfQgIlG3dt6uK5C2Zq/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1hnyDW-5PHxJUK_nJeKv0E-sH_fX4xZ1A/view?usp=sharing"
                     target="_blank"
                     className="relative z-10"
                   >
@@ -193,11 +192,10 @@ const Header = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3, delay: 0.1 * index }}
                     whileHover={{ x: 10 }}
-                    className={`text-base sm:text-lg font-medium py-2 sm:py-3 px-3 sm:px-4 rounded-xl transition-all duration-300 ${
-                      activeSection === item.name.toLowerCase()
+                    className={`text-base sm:text-lg font-medium py-2 sm:py-3 px-3 sm:px-4 rounded-xl transition-all duration-300 ${activeSection === item.name.toLowerCase()
                         ? 'text-primary bg-primary/10'
                         : 'text-slate-600 dark:text-slate-300 hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-800'
-                    }`}
+                      }`}
                     href={item.href}
                     onClick={e => {
                       e.preventDefault();

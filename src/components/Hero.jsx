@@ -61,9 +61,8 @@ const Hero = () => {
               variants={itemVariants}
               className="text-sm sm:text-base md:text-lg text-text-muted dark:text-text-dark-muted max-w-lg leading-relaxed font-light"
             >
-              I'm a <span className="font-medium text-text-main dark:text-text-dark-main">MERN Stack Developer</span> with a strong focus on frontend development. My goal is to become a full-stack developer in the future. I am passionate about learning and improving my skills.
+              I'm a <span className="font-medium text-text-main dark:text-text-dark-main">MERN Stack Developer</span> with experience building modern, responsive, and scalable full-stack web applications. I enjoy creating clean user interfaces, developing secure backend APIs, and solving real-world problems through efficient and maintainable code. I'm always eager to learn new technologies and grow as a developer.
             </motion.p>
-            
             <motion.div 
               variants={itemVariants}
               className="flex flex-col sm:flex-row sm:flex-wrap items-start sm:items-center gap-4"

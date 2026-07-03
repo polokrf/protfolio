@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Header, Hero, About, Skills, Projects, Contact, Footer, LoadingScreen } from './components'
+import { Header, Hero, About, Skills, Services, Projects, Contact, Footer, LoadingScreen } from './components'
 import { Toaster } from 'react-hot-toast'
 import Lenis from 'lenis'
 
@@ -45,16 +45,17 @@ function App() {
 
   return (
     <>
-     <div className=' z-10'>
-       <Header />
-     </div>
+      <div className=' z-10'>
+        <Header />
+      </div>
       <Hero />
       <About />
       <Skills />
+      <Services />
       <Projects />
       <Contact />
       <Footer />
-      <Toaster 
+      <Toaster
         position="top-right"
         toastOptions={{
           duration: 4000,
