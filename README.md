@@ -187,7 +187,7 @@ const polokKumar = {
 |----------|------|
 | 📧 Email | [polokkumar9030@gmail.com](mailto:polokkumar9030@gmail.com) |
 | 💼 LinkedIn | [linkedin.com/in/polokkumar](https://www.linkedin.com/in/polokkumar) |
-| 🌐 Portfolio | [your-portfolio-url.com](https://your-portfolio-url.com) |
+| 🌐 Portfolio | [your-portfolio-url.com](https://clinquant-unicorn-7836df.netlify.app/) |
 | 🐙 GitHub | [github.com/polokrf](https://github.com/polokrf) |
 
 </div>
